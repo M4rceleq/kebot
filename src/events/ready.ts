@@ -7,7 +7,7 @@ export const event: IEvent<'ready'> = {
     listener: 'ready',
     once: true,
     execute: async (client, db) => {
-        client.commands.registerCommandsOnGuild('1048925740818763886');
+        client.commands.registerCommandsOnGuild('509355153623875591');
 
         console.log(bold(cyan(figlet.textSync(`KEBOT v2.0`))));
         console.log(blue('>>'), whiteBright('Logged in as:'), redBright(client.user.tag));
